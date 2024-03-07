@@ -13,7 +13,7 @@ const Nav = () => {
                 <Link to="/" className="pr-2">
                     Home
                 </Link>
-                <Link to="courses" className="px-2">
+                <Link to="/courses" className="px-2">
                     Courses
                 </Link>
                 <Link to="partnership" className="px-2">
