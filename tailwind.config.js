@@ -4,7 +4,9 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        'work-sans': ['Work Sans', 'sans-serif']
+        'work-sans': ['Work Sans', 'sans-serif'],
+        'inter': ['Inter', 'sans-serif'],
+        'berlin': ['Berlin Sans FB', 'sans-serif']
       },
       fontSize: {
         mobile: "13px",
