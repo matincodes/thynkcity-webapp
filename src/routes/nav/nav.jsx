@@ -27,10 +27,10 @@ const Nav = () => {
                 </Link>
             </div>
             <div>
-                <Link to="/login" className="py-3 px-4 mr-2 rounded-md text-white bg-[#AD7933]">
+                <Link to="/sign-up" className="py-3 px-4 mr-2 rounded-md text-white bg-[#AD7933]">
                     Apply Now
                 </Link>
-                <Link to="/sign-in">
+                <Link to="/login">
                     Sign In
                 </Link>
             </div>

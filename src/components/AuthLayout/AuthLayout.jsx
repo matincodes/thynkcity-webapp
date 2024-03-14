@@ -1,9 +1,9 @@
 import logo from "../../assets/img/logo.png";
 
-export function AuthLayout({ authImage, children }) {
+const AuthLayout = ({ authImage, children }) => {
   return (
     <div className="w-full flex gap-x-2 justify-center  h-full inset-0 fixed items-start">
-      <div className="hidden lg:block lg:w-[60%] h-full">
+      <div className="lg:w-[60%] h-full">
         <div className="w-full h-full flex flex-col items-start justify-between">
           <img src={logo} alt="logo" />
 
@@ -22,3 +22,5 @@ export function AuthLayout({ authImage, children }) {
     </div>
   );
 }
+
+export default AuthLayout;

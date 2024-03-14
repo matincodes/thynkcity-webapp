@@ -1,40 +1,19 @@
 import "./App.css";
-import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
-import { Login, Register } from "./pages";
+import { Route, Routes } from "react-router-dom";
+import Login from "./routes/login/login";
 import Home from "./routes/home/home";
+import CoursesSection from "./components/coursesPage/courses-section/courses-section";
 
-// function App() {
-//   return (
-//     <div>
-//       <Home/>
-//     </div>
-//   );
-// }
-
-// export default App;
-
-import { Link, Route, Routes } from "react-router-dom";
-import Courses from "./routes/courses/courses";
-
-function Course() {
+function App() {
   return (
     <div>
       <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/courses" element={<Courses />} />
-        <Route
-          path="*"
-          element={
-            <div>
-              <h1>Not found</h1>
-              <Link to={"/"}>Go to Home</Link>
-            </div>
-          }
-        />
+        <Route path="/" element={<Home/>}/>
+        <Route path="/login" element={<Login/>}/>
+        <Route path="/courses" element={<CoursesSection/>}/>
       </Routes>
     </div>
-   
   );
 }
 
-export default Course;
+export default App;
