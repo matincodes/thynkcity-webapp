@@ -3,7 +3,7 @@ import BrownStripes from "../../assets/img/brown-stripes.svg";
 const TeachPage = () => {
     return ( 
         <div>
-            <div className="absolute top-[55%] -right-3 overflow-hidden">
+            <div className="absolute top-[55%] -right-3 z-0 overflow-hidden">
                 <img src={BrownStripes} alt="" className="w-[95%]" />
             </div>
             <div className="text-center">

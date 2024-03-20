@@ -8,7 +8,7 @@ import "./mainPage.css";
 
 const MainPage = () => {
     return ( 
-        <div className="flex font-work-sans items-center justify-center w-screen px-8 py-10 z-10 bg-white">
+        <div className="flex font-work-sans items-center justify-center w-screen px-8 py-10 z-20 bg-white">
             <div className="w-2/4 flex flex-col">
                 <h1 className="text-6xl font-normal font-berlin">
                     Empowering Africa: Innovation, Thrive, <span className="text-[#AD7933]">Excel</span>
