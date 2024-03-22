@@ -26,7 +26,7 @@ const CourseCard = ({image,title,courses,paragraph,rating,value,avatar,name,numb
             {rating}
           </span>
 
-          {[...Array(5)].map((image, index) => (
+          {[...Array(5)].map(index => (
             <img key={index} src={Star} alt="star" className="w-[16px]" />
           ))}
           <p className="text-[#969696]">({value})</p>
